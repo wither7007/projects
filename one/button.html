@@ -1,0 +1,64 @@
+<!-- HTML !-->
+<button class="butt" role="button">Button 79</button>
+
+/* CSS */
+.butt {
+  backface-visibility: hidden;
+  background: #332cf2;
+  border: 0;
+  border-radius: .375rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,Helvetica,sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  line-height: 1.3;
+  padding: 1rem 1.25rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.butt:disabled {
+  color: #787878;
+  cursor: auto;
+}
+
+.butt:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.butt:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+.butt:focus {
+  outline: 0 solid transparent;
+}
+
+.butt:focus:before {
+  border-width: .125rem;
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.butt:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.butt:not(:disabled):active {
+  transform: translateY(.125rem);
+}

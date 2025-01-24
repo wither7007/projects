@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+my $str = 'some text /ssss';
+my $regex = qr/[\/].*$/mp;
+my $subst = '';
+
+my $result = $str =~ s/$regex/$subst/rg;
+
+print "The result of the substitution is' $result\n";

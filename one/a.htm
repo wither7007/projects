@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+body {
+  padding: 32px 0;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: slateblue;
+  padding: 8px;
+  display: grid;
+  place-content: center;
+  color: white;
+  text-align: center;
+}
+
+</style>
+<style>
+  /* Create the animation... */
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  /* ...and then apply it: */
+  .box {
+    animation: slide-in 1000ms;
+  }
+</style>
+
+
+<body>
+    <div class="box">Hello World</div>
+    <div class="box">nothing</div>
+
+</body>
+
+</html>

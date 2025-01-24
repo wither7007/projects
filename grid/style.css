@@ -1,0 +1,22 @@
+/* main {
+  display: grid;
+
+} */
+
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  /* height: 100vh; */
+  background-color: #f1f1f1;
+}
+
+body>* {
+  border: solid black 1px;
+  padding: 3rem;
+}
+
+.x {
+  margin: 0 auto;
+  background-color: #0ff;
+}

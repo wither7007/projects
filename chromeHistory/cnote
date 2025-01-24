@@ -1,0 +1,15 @@
+Ctrl-Shift J
+copy(localStorage)
+window.loalStorage.consoleHistory
+myStorage = window.localStorage;
+","myStorage"
+myStorage.consoleHistory
+copy(localStorage.consoleHistory.toString().replaceAll(/\\+n/g,''))
+https://chema.medio.click/en/dev/reviewing-the-console-command-history-in-chromes-devtools/
+final
+p=[]
+window.localStorage.consoleHistory.split(',').forEach(x=>p.push(x.replaceAll('"','')))
+q=p.map(a=>a.replaceAll(/\\n?/g,''))
+copy(q)
+
+Control + Shift + T to bring back the most recently closed tab.

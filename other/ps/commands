@@ -1,0 +1,3 @@
+journalctl -b #since boot?
+ps -axjf #hierarchy
+ps aux

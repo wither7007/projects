@@ -1,0 +1,9 @@
+  <parameter name="PortMappingEnabled" access="readWrite" type="xsd:boolean"></parameter>
+  <parameter name="PortMappingLeaseDuration" access="readWrite" activeNotify="canDeny" type="xsd:unsignedInt"></parameter>
+  <parameter name="RemoteHost" access="readWrite"></parameter>
+  <parameter name="ExternalPort" access="readWrite" type="xsd:unsignedInt"></parameter>
+  <parameter name="ExternalPortEndRange" access="readWrite" type="xsd:unsignedInt"></parameter>
+  <parameter name="InternalPort" access="readWrite" type="xsd:unsignedInt"></parameter>
+  <parameter name="PortMappingProtocol" access="readWrite"></parameter>
+  <parameter name="InternalClient" access="readWrite"></parameter>
+  <parameter name="PortMappingDescription" access="readWrite"></parameter>

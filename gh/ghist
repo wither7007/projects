@@ -1,0 +1,50 @@
+gh status
+gh --version
+gh repo list SAP-samples --limit 10 --public
+gh repo list --json
+gh repo list SAP-samples --limit 10 --public \\n  --json name \\n  --jq .[].name
+gh repo list SAP-samples --limit 10 --public  --json name  --jq .[].name
+gh
+gh config get editor
+gh repo create tesss
+gh repo create tesss --public
+gh completions -s zsh
+gh completion -s zsh
+gh issue list -repo cli/cli
+gh issue list --repo cli/cli
+gh repo delete wither7007/deleteme
+gh repo list wither7007
+gh repo list wither7007 | nvim -
+gh repo list | nvim -
+gh repo delete wither7007/deletemewither7007/junk
+gh repo delete wither7007/deletemewither7007/junk --yes
+gh repo delete wither7007/deletemewither7007/junk --confirm
+gh repo delete wither7007/junk -yes
+gh repo delete wither7007/junk -confirm
+gh repo delete wither7007/junk --confirm
+gh repo delete wither7007/tesss --confirm
+gh repo delete wither7007/ghTest --confirm
+gh repo delete wither7007/ddd --confirm
+gh repo delete wither7007/steff007 --confirm
+gh repo delete wither7007/home --confirm
+gh ext search
+gh repo view wither7007/wsl
+gh repo delete wither7007/wsl --confirm
+gh repo list wither7007 | awk '{print $1}' | nvim -
+gh repo delete wither7007/al --confirm
+gh repo delete wither7007/all --confirm
+gh repo delete wither7007/localDj  --confirm
+gh repo delete wither7007/django-rest --confirm
+gh repo delete wither7007/tailwind-landing-page --confirm
+gh repo delete wither7007/responsive-nav-flexbox --confirm
+gh repo view wither7007/htmlTemplate
+gh auth login
+gh auth refresh -h github.com -s delete_repo
+gh repo delete wither7007/wither7007.github.io --confirm
+gh repo clone WebDevSimplified/js-util-functions
+gh repo list wither7007 | awk '{print $1}'
+gh copilot explain "sudo apt-get"
+gh repo list wither7007 | awk '{print $1}' > list
+gh repo create fastAPIArjun --public
+gh search --help
+gh search repos 'javascript'

@@ -1,0 +1,10 @@
+#TEXT CONVERSION AND SUBSTITUTION:
+
+# # IN UNIX ENVIRONMENT: convert DOS newlines (CR/LF) to Unix format
+ awk '{sub(/\r$/,"")};1'   # assumes EACH line ends with Ctrl-M
+
+# # IN UNIX ENVIRONMENT: convert Unix newlines (LF) to DOS format
+ awk '{sub(/$/,"\r")};1'
+
+# # IN DOS ENVIRONMENT: convert Unix newlines (LF) to DOS format
+ awk 1

@@ -1,0 +1,2 @@
+copy(document.querySelector('html').outerHTML)
+

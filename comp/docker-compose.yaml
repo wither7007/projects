@@ -1,0 +1,6 @@
+services:
+  caddy:
+    container_name: "caddy"
+    image: "caddy:latest"
+    ports:
+      - "5000:80"

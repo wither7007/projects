@@ -1,0 +1,14 @@
+apt list
+apt install git
+sudo apt-get install git-all
+sudo apt-get install curl
+sudo apt-get install wget
+sudo apt install zip
+sudo apt install fd
+sudo apt install fdfind
+sudo apt-get install build-essential
+sudo apt install aptitude
+aptitude search '?priority(required)'
+sudo apt full-upgrade
+sudo apt install fd-find
+sudo apt install zsh

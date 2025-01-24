@@ -1,0 +1,11 @@
+docker run --name mariadbtest -e MYSQL_ROOT_PASSWORD=secret -p 3306:3306 -d docker.io/library/mariadb:10.3
+mysql --protocol=tcp -u root -p -P 3306
+
+https://www.baeldung.com/linux/execute-sql-script-command-line
+
+https://stackoverflow.com/questions/23234379/installing-mysql-in-docker-fails-with-error-message-cant-connect-to-local-mysq
+
+sudo service mysql start
+sudo mariadb
+sudo systemctl stop mariadb
+mariadb --version

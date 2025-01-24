@@ -1,0 +1,262 @@
+{
+    "console-history": "[\"$0\"
+\"$0.href\"
+\"copy($0.href)\"
+\"$0\"
+\"$0.href\"
+\"copy($0.href)\"
+\"href\"
+\"locationbar\"
+\"url\"
+\"location.href\"
+\"copy(location.href)\"
+\"copy(url.href)\"
+\"location.href\"
+\"copy(location.href)\"
+\"copy(cation.href)\"
+\"copy(clocation.href)\"
+\"$0\"
+\"$0.href\"
+\"copy($0.href)\"
+\"document.html\"
+\"document.body\"
+\"$0.href\"
+\"copy($0.href)\"
+\"css\"
+\"copy($0.href)\"
+\"head\"
+\"document.head\"
+\"h=document.head\"
+\"h.children\"
+\"copy(h.childen)\"
+\"h.children[1]\"
+\"h\"
+\"h.lenght\"
+\"h.length\"
+\"for a in h (log a)\"
+\"h\"
+\"function exerciseOne(names){\\n  names.forEach(x => console.log(x));\\n}\\nexerciseOne(['John'
+'peter'
+'mart'])\"
+\"h\"
+\"h[1]\"
+\"h\"
+\"$0.textContent\"
+\"$html\"
+\"$0\"
+\"$0.html\"
+\"$0\"
+\"$html\"
+\"document.querySelector('html')\"
+\"document.querySelector('html').innerHTML\"
+\"var urls = document.getElementsByTagName('a');\\nfor (var i = 0; i < urls.length; i++) {\\n    console.log ( urls[i].getAttribute('href') );\\n}\\n\"
+\"urls\"
+\"var urls = document.getElementsByTagName('*');\\nfor (var i = 0; i < urls.length; i++) {\\n    console.log ( urls[i].getAttribute('href') );\\n}\\n\"
+\"var urls = document.getElementsByTagName('a');\\nfor (var i = 0; i < urls.length; i++) {\\n    console.log ( urls[i].getAttribute('href') );\\n}\\n\"
+\"var urls = document.getElementsByTagName('a');all=\\\"\\\"\\nall.push('a')\\n\\nfor (var i = 0; i < urls.length; i++) {\\n    console.log ( urls[i].getAttribute('href') );\\n}\\n\"
+\"all=\\\"\\\"\\nall.push('a')\\n\"
+\"all=[]\\nall.push('a')\\n\"
+\"all\"
+\"all=[]\\nall.push('a')\\nvar urls = document.getElementsByTagName('a');\\nfor (var i = 0; i < urls.length; i++) {\\n    console.log ( urls[i].getAttribute('href') );\\n    all.push( urls[i].getAttribute('href') )\\n}\\n\"
+\"all\"
+\"copy all\"
+\"all\"
+\"copy(all)\"
+\"document.querySelector('html')\"
+\"$html\"
+\"d=document.body\"
+\"d=document.body.text\"
+\"d=document.body.content\"
+\"d\"
+\"d.text\"
+\"d=document.body.content\"
+\"d\"
+\"d=document.body\"
+\"del d\"
+\"d\"
+\"d.innerHTML\"
+\"document.body.wi\"
+\"document.body.width\"
+\"window.width\"
+\"window.width=2px\"
+\" w = window.innerWidth\"
+\"window.innerWidth=500\"
+\"document.url\"
+\"document.body.html\"
+\"document.body.innerHTML\"
+\"$head\"
+\"document.querySelector('head')\"
+\"document.querySelector('body')\"
+\"temp1\"
+\"tem1\"
+\"temp1\"
+\"temp1.innerHTML\"
+\"temp2\"
+\"temp2.children\"
+\"c=2\"
+\"c\"
+\"c=4\"
+\"c=6\"
+\"$$(p)\"
+\"$(p)\"
+\"document.querySelector('p')\"
+\"$$('p)\"
+\"$$('p.)\"
+\"$$('p.')\"
+\"$$('p')\"
+\"localStorage\"
+\"localStorage.key\"
+\"localStorage.key(0)\"
+\"localStorage.setItem(\\\"myKey\\\"
+ \\\"testValue\\\");\\nundefined;\"
+\"localStorage\"
+\"copy(localStorage)\"
+\"localStorage.getItem('colorblind')\"
+\"localStorage.getItem('user')\"
+\"localStorage.clear()\"
+\"localStorage.getItem('user')\"
+\"localStorage\"
+\"document.cookie\"
+\"document.html\"
+\"$(document)\"
+\"$(document.head)\"
+\"document.getElementsByTagName('html')\"
+\"d=document.getElementsByTagName('html')\"
+\"d\"
+\"d.namedItem\"
+\"copy(document.querySelector('html').outerHTML)\"
+\"window.localStorage.consoleHistory\"
+\"window\"
+\"\\\"myStorage = window.localStorage;\\\"
+\\\"myStorage\\\"]'\"
+\"\\\"myStorage = window.localStorage;\\\"
+\\\"myStorage\\\"]\"
+\"\\\"myStorage = window.localStorage;\\\"
+\\\"myStorage\\\"\"
+\"myStorage = window.localStorage;\"
+\"copy(localStorage.consoleHistory.toString().replaceAll(/\\\\\\\\+n/g
+''))\"
+\"copy(localStorage.consoleHistory)\"
+\"window.localStorage.consoleHistory\"
+\"exit\"
+\"copy(localStorage.consoleHistory)\"
+\"copy(document.querySelector('html').outerHTML)\"
+\"myStorage.consoleHistory\"
+\"window.localStorage.consoleHistory\"
+\"myStorage = window.localStorage;\\\"
+\\\"myStorage\\\"\"
+\"myStorage = window.localStorage;\\\"
+\\\"myStorage\\\"]\"
+\"console.log('frumious')\"
+\"myStorage = window.localStorage;\"
+\"copy(myStorage)\"
+\"localStorage\"
+\"\\nlocalStorage.clear()\\n\\n\"
+\"localStorage\"
+\"copy(localStorage)\"
+\"localStorage.answers\"
+\"localStorage.clear()\"
+\"localStorage.answers\"
+\"copy(localStorage)\"
+\"localStorage\"
+\"localStorage.clear()\"
+\"sessionStorage\"
+\"localStorage\"
+\"copy(document.querySelector('html').outerHTML)\"
+\"$0\"
+\"copy($0.href)\"
+\"copy(document.querySelector('html').outerHTML)\"
+\"new()\"
+\"wnew()\"
+\"function wnew() {\\n    alert('new')\\n}\"
+\"wnew\"
+\"wnew()\"
+\"const container = document.querySelector('.container')\"
+\"const containers = document.querySelector('.container')\"
+\"container\"
+\"containers\"
+\"copy(localStorage)\"]"
+
+    "console-pins": "[]"
+
+    "console-insights-onboarding-finished": "false"
+
+    "previously-viewed-files": "[{\"url\":\"http://127.0.0.1:5500/one/myscript.js\"
+\"resourceTypeName\":\"script\"
+\"selectionRange\":{\"startLine\":1
+\"startColumn\":0
+\"endLine\":1
+\"endColumn\":54}
+\"scrollLineNumber\":0}
+{\"url\":\"https://wither7007.github.io/\"
+\"resourceTypeName\":\"document\"
+\"selectionRange\":{\"startLine\":110
+\"startColumn\":7
+\"endLine\":110
+\"endColumn\":7}
+\"scrollLineNumber\":94}
+{\"url\":\"https://developer.chrome.com/_pwa/chrome/manifest.json\"
+\"resourceTypeName\":\"manifest\"}
+{\"url\":\"https://flexboxfroggy.com/\"
+\"resourceTypeName\":\"document\"
+\"selectionRange\":{\"startLine\":219
+\"startColumn\":0
+\"endLine\":219
+\"endColumn\":0}
+\"scrollLineNumber\":214}
+{\"url\":\"http://127.0.0.1:5500/background-slider/a.jpg\"
+\"resourceTypeName\":\"image\"}
+{\"url\":\"http://localhost:8080/styles.css\"
+\"resourceTypeName\":\"stylesheet\"
+\"selectionRange\":{\"startLine\":74
+\"startColumn\":1
+\"endLine\":74
+\"endColumn\":1}
+\"scrollLineNumber\":57}
+{\"url\":\"http://localhost:8080/\"
+\"resourceTypeName\":\"document\"}
+{\"url\":\"http://localhost:3000/styles.css\"
+\"resourceTypeName\":\"stylesheet\"
+\"selectionRange\":{\"startLine\":74
+\"startColumn\":24
+\"endLine\":74
+\"endColumn\":24}
+\"scrollLineNumber\":48}]"
+
+    "localInspectorVersion": "38"
+
+    "persistent-highlight-setting": "[{\"url\":\"http://localhost:3000/centerPic\"
+\"path\":\"1
+HTML
+1
+BODY\"
+\"type\":\"GRID\"}
+{\"url\":\"http://localhost:3000/#\"
+\"path\":\"1
+HTML
+1
+BODY
+0
+DIV
+0
+DIV\"
+\"type\":\"FLEX\"}
+{\"url\":\"http://127.0.0.1:46711/\"
+\"path\":\"1
+HTML
+1
+BODY\"
+\"type\":\"FLEX\"}
+{\"url\":\"http://localhost:8080/\"
+\"path\":\"1
+HTML
+1
+BODY
+1
+DIV
+2
+DIV\"
+\"type\":\"GRID\"}]"
+
+    "experiments": "{}"
+}
