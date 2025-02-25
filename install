@@ -1,14 +1,40 @@
 apt list
-apt install git
-sudo apt-get install git-all
-sudo apt-get install curl
-sudo apt-get install wget
-sudo apt install zip
-sudo apt install fd
-sudo apt install fdfind
-sudo apt-get install build-essential
-sudo apt install aptitude
-aptitude search '?priority(required)'
-sudo apt full-upgrade
-sudo apt install fd-find
-sudo apt install zsh
+
+sudo apt update
+apt install sudo -y
+apt install git -y
+sudo apt-get install git-all -y
+sudo apt-get install curl -y
+sudo apt-get install wget -y
+sudo apt install zip -y
+sudo apt install fd -y
+sudo apt install fdfind -y
+sudo apt-get install build-essential -y
+sudo apt install aptitude -y
+sudo apt full-upgrade -y
+
+sudo apt install fd-find -y
+alias fd=fdfind
+sudo apt install zsh -y
+sudo apt-get install -y psmisc -y 
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz\nsudo rm -rf /opt/nvim\nsudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+
+curl -LO https://github.com/BurntSushi/ripgrep/releases/download/14.1.0/ripgrep_14.1.0-1_amd64.deb
+sudo dpkg -i ripgrep_14.1.0-1_amd64.deb
+sudo apt install man-db manpages-posix
+alias v="/opt/nvim-linux-x86_64/bin/nvim"
+sudo apt install exa  -y
+sudo apt install nodejs -y
+aptitude search '?priority(required)' -y
+apt install rename -y
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
+sudo rm -rf /opt/nvim
+sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
+sudo rm -rf /opt/nvim
+sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+wget https://raw.githubusercontent.com/wither7007/all_wsl/refs/heads/main/alias
+source alias
